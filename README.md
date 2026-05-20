@@ -107,4 +107,6 @@ Scene progression is working, control sensitivity is very sensitive. Everything 
 8. I'm assuming the error in the back of the Shiba is uneven mesh with the texture not properly aligned. 
 9. I think using the blend mode additive keeps the patterns on the fire effect while still blending  the texture in with the color.
 
+##W8
+
 
