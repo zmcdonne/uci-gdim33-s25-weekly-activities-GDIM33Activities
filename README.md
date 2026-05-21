@@ -107,6 +107,15 @@ Scene progression is working, control sensitivity is very sensitive. Everything 
 8. I'm assuming the error in the back of the Shiba is uneven mesh with the texture not properly aligned. 
 9. I think using the blend mode additive keeps the patterns on the fire effect while still blending  the texture in with the color.
 
-##W8
+## W8
+### Activity 1
+https://zoyasaus.itch.io/playtest
+In your Devlog, note:
+
+Playtesting goals were to see how buggy my new dialouge system was, where now the scriptable objects is taken form the npc and then used in the UI, along with adding more npc to scene aand an excit dialouge button,
+
+
+Playtesting notes: Animator not working on npcs fully, and collider on Zom NPC wasnt working, Clicking on Zom wont work Colliders for the rom  and Zom need to be hrapped didnt notice that there Is a bottom to go back  More apparent what Character is you mwre Up the speed for the typing,  How to interact with character visuaol indicater, Know that you can press mouse buttoh
+
 
 
