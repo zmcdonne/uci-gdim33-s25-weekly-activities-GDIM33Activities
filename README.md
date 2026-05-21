@@ -111,17 +111,32 @@ Scene progression is working, control sensitivity is very sensitive. Everything 
 ### Activity 1
 [Playtest Build ](https://zoyasaus.itch.io/playtest)
 
-In your Devlog, note:
 
-Playtesting goals were to see how buggy my new dialouge system was, where now the scriptable objects is taken form the npc and then used in the UI, along with adding more npc to scene aand an excit dialouge button,
+### Playtesting Goals
+The playtesting goals were to see how buggy my new dialogue system was. The system now takes Scriptable Objects from the NPC and uses them in the UI. I also added more NPCs to the scene and included an exit dialogue button.
+
+### Playtesting Notes:
+- The animator was not fully working on the NPCs.
+- The collider on the Zom NPC was not working, so clicking on Zom would not work.
+- The colliders for Rom and Zom need to be wrapped/fixed.
+- I did not notice at first that there was a button to go back.
+- It should be more apparent which character you are talking to.
+- Increase the speed of the typing effect.
+- Add a visual indicator showing how to interact with characters.
+- Make it clearer that the player can press the mouse button to interact.
 
 
-Playtesting notes: Animator not working on npcs fully, and collider on Zom NPC wasnt working, Clicking on Zom wont work Colliders for the rom  and Zom need to be hrapped didnt notice that there Is a bottom to go back  More apparent what Character is you mwre Up the speed for the typing,  How to interact with character visuaol indicater, Know that you can press mouse buttoh
-
-Activity 2C
+### Activity 2C
 Open the Frame Debugger window under Windows >Analysis > Frame Debugger. What's the name of the pass associated with the post-processing effect we created? Other than the name being kinda obvious, how can you tell?
 What does the screen look like if the Lerp value is set to 0.5? What about 0? What about 1?
 WHY does the screen look like that based on those different Lerp values?
 Why does our algorithm for the Lerp amount use (sin(time)+1)/2 instead of just sin(time)? (see instructions for hints)
 
 
+1. There seems to be a lot of passes going on, so it might be my mistake. A lot are highlighted: Mesh Rendering, Post Effect, and Camera Color Attachment(which I’m guessing is the thing), which is where the shader is attached. I can tell from the name and because we attached it to the camera, and it’s the camera’s visuals being obscured.
+
+2. At 0.5, the screen looks darker. At 0, it looks brighter, and at 1, it looks black.
+
+3. Lerp takes in two original values and returns a value that is a percentage between the original values. It works like a 0–100% blending value, so a value of 1 means the screen is completely blended to black, I would assume. 
+
+4.  (sin(time)+1)/2.  It makes the effect look smoother and less extreme. Since sine normally goes from -1 to 1, adding 1 and dividing by 2 changes the range to 0–1, which works properly for Lerp values. This makes the transition more gradual and prevents negative values from causing unintended effects.
