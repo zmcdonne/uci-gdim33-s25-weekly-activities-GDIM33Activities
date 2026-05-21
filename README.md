@@ -109,7 +109,8 @@ Scene progression is working, control sensitivity is very sensitive. Everything 
 
 ## W8
 ### Activity 1
-https://zoyasaus.itch.io/playtest
+[Playtest Build ](https://zoyasaus.itch.io/playtest)
+
 In your Devlog, note:
 
 Playtesting goals were to see how buggy my new dialouge system was, where now the scriptable objects is taken form the npc and then used in the UI, along with adding more npc to scene aand an excit dialouge button,
@@ -117,5 +118,10 @@ Playtesting goals were to see how buggy my new dialouge system was, where now th
 
 Playtesting notes: Animator not working on npcs fully, and collider on Zom NPC wasnt working, Clicking on Zom wont work Colliders for the rom  and Zom need to be hrapped didnt notice that there Is a bottom to go back  More apparent what Character is you mwre Up the speed for the typing,  How to interact with character visuaol indicater, Know that you can press mouse buttoh
 
+Activity 2C
+Open the Frame Debugger window under Windows >Analysis > Frame Debugger. What's the name of the pass associated with the post-processing effect we created? Other than the name being kinda obvious, how can you tell?
+What does the screen look like if the Lerp value is set to 0.5? What about 0? What about 1?
+WHY does the screen look like that based on those different Lerp values?
+Why does our algorithm for the Lerp amount use (sin(time)+1)/2 instead of just sin(time)? (see instructions for hints)
 
 
