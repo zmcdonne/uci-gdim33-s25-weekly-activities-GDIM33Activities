@@ -145,8 +145,8 @@ Why does our algorithm for the Lerp amount use (sin(time)+1)/2 instead of just s
 ## W9
 ### Activity 1
 1. We choose the game "Pyre" at my table.
-2. we talked about fade out from scene where it seems to be the frame iseither copyed or predicted with future frames being in view, either procedually generated, movment copiyng frame zoom out and in efffect. For other lighitngs and trasition we talked about texsture ditering, and lighting overlays. 
+2.  We talked about fade-outs from scenes where it seems the frame is either copied or predicted, with future frames being visible. We discussed effects such as procedurally generated movement, copying frames, zoom-in and zoom-out effects, texture dithering, and lighting overlays for transitions and lighting effects.
 ### Activity 2
-My shader graph problem was getting multiple images on the same shader, adding them using addition, and subtraction to use an invert affect. I also used teh decale edge mask to have a smoother fade in and out. 
+My shader graph problem was getting multiple images on the same shader, combining them using addition and subtraction to create an invert effect. I also used the decal edge mask to create a smoother fade-in and fade-out effect.
 <img width="803" height="579" alt="image" src="https://github.com/user-attachments/assets/c21eee3b-63ad-4894-acc5-b6ef8b2e5bee" />
 
