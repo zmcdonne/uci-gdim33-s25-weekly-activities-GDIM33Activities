@@ -140,3 +140,12 @@ Why does our algorithm for the Lerp amount use (sin(time)+1)/2 instead of just s
 3. Lerp takes in two original values and returns a value that is a percentage between the original values. It works like a 0–100% blending value, so a value of 1 means the screen is completely blended to black, I would assume. 
 
 4.  (sin(time)+1)/2.  It makes the effect look smoother and less extreme. Since sine normally goes from -1 to 1, adding 1 and dividing by 2 changes the range to 0–1, which works properly for Lerp values. This makes the transition more gradual and prevents negative values from causing unintended effects.
+
+
+## W9
+### Activity 1
+1. We choose the game "Pyre" at my table.
+### Activity 2
+### Activity 3
+<img width="803" height="579" alt="image" src="https://github.com/user-attachments/assets/c21eee3b-63ad-4894-acc5-b6ef8b2e5bee" />
+
