@@ -150,3 +150,15 @@ Why does our algorithm for the Lerp amount use (sin(time)+1)/2 instead of just s
 My shader graph problem was getting multiple images on the same shader, combining them using addition and subtraction to create an invert effect. I also used the decal edge mask to create a smoother fade-in and fade-out effect.
 <img width="803" height="579" alt="image" src="https://github.com/user-attachments/assets/c21eee3b-63ad-4894-acc5-b6ef8b2e5bee" />
 
+## W10
+### Activity 1
+Your playtesting setup and notes:
+what is NEW in your build since your Milestone 2 submission
+a link to your Itch page
+your playtesting goal(s)
+your playtesting notes4
+### Activity 2
+Describe the planning strategy your table came up with.
+### Activity 3
+A quick description of a problem you solved on/ an improvement you made to your Vertical Slice today.
+Today i imrpove the movemnet sensitivity. added back the mainc aharacter model, added animations, changed movment code,and edtied my untiy so that the visual shader exsports with the build and plays in web.
