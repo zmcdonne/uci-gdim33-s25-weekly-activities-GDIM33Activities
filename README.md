@@ -152,13 +152,22 @@ My shader graph problem was getting multiple images on the same shader, combinin
 
 ## W10
 ### Activity 1
-Your playtesting setup and notes:
-what is NEW in your build since your Milestone 2 submission
-a link to your Itch page
-your playtesting goal(s)
-your playtesting notes4
+Since Milestone 2, I have a new polished level, and NPCs have different dialogue. You can exit conversations and talk to others. There are more assets, animators have been set up, colliders have been added to the scene, and the scripts are now fully implemented along with the Shader Graph.
+
+[a link to your Itch page](https://zoyasaus.itch.io/vertical-slice-milestone-3) 
+
+My playtesting goals were to check whether my colliders were working properly and to identify any dialogue bugs.
+
+Playtesting notes:
+
+* Cursor off-centered 
+* Cursor is not locked after a conversation
+* Collider issues
+* Fix camera
+* Zom NPC not working right
+
 ### Activity 2
-Describe the planning strategy your table came up with.
+The planning strategy my group discussed was building for scalability and keeping the final goal in mind. Planning affects your perception of scope, especially when you identify the core mechanics and break them into smaller pieces of code and interactions. We only have 10 weeks, and some mechanics are more complex than they initially seem. Understanding that complexity helps you estimate how much time is needed and how to space out your work. It is often better to aim lower and create a polished experience (which is easier with more experience).  Scope becomes clearer when systems are laid out and connected. A useful strategy for planning game engineering is to diagram systems and object relationships, identify the major features (epics), and then break them down into smaller, specific tasks. This helps reveal dependencies and the complexity of each system.
+
 ### Activity 3
-A quick description of a problem you solved on/ an improvement you made to your Vertical Slice today.
-Today i imrpove the movemnet sensitivity. added back the mainc aharacter model, added animations, changed movment code,and edtied my untiy so that the visual shader exsports with the build and plays in web.
+Today, I improved the movement sensitivity. I added back the main character model, added animations, updated the movement code, and edited my Unity project so that the visual shaders export correctly with the build and work properly on the web version.
