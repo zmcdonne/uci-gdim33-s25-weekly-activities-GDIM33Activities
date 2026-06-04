@@ -154,7 +154,7 @@ My shader graph problem was getting multiple images on the same shader, combinin
 ### Activity 1
 Since Milestone 2, I have a new polished level, and NPCs have different dialogue. You can exit conversations and talk to others. There are more assets, animators have been set up, colliders have been added to the scene, and the scripts are now fully implemented along with the Shader Graph.
 
-[a link to your Itch page](https://zoyasaus.itch.io/vertical-slice-milestone-3) 
+[Itch page](https://zoyasaus.itch.io/vertical-slice-milestone-3) 
 
 My playtesting goals were to check whether my colliders were working properly and to identify any dialogue bugs.
 
